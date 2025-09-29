@@ -66,9 +66,9 @@ class Solution {
 
 Given an array of points on the **X-Y** plane `points` where `points[i] = [xi, yi]` , return the area of the largest triangle that can be formed by any three different points. Answers within `10^-5` of the actual answer will be accepted.
 
-**Example**
+**Example:**
 
-https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/04/1027.png
+![Example]([https://example.com/cool-image.png](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/04/1027.png))
 
 ```text
 
