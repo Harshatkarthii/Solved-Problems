@@ -16,7 +16,8 @@ The testcases will be generated such that the answer is unique.
 Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
 ```
-```Code
+**Code:**
+```text
 class Solution {
     public String minWindow(String s, String t) {
         if(s.length()<t.length()) return "";
