@@ -1,6 +1,8 @@
 # Solved-Problems
 
-## LeetCode Problem 76 - Minimum Window Substring
+## LeetCode Problem 
+
+## 76 - Minimum Window Substring
 
 **Problem Statement:**
 
@@ -58,7 +60,7 @@ class Solution {
 }
 ```
 
-## Largest Triangle Area
+## 812 - Largest Triangle Area
 
 **Problem Statement:**
 
