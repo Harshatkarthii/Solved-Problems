@@ -119,7 +119,7 @@ class Solution {
 
 **Problem Statment**
 
-Given two strings `s` and `p`, return an array of all the start indices of `p's` <span title="Anagram is a word or phrase formed by rearranging the letters of a different word or phrase , using all the original letters exactly once">Anagrams</span> in `s`. You may return the answer in **any order**.
+Given two strings `s` and `p`, return an array of all the start indices of `p's` <span style="color:blue;" title="Anagram is a word or phrase formed by rearranging the letters of a different word or phrase , using all the original letters exactly once">Anagrams</span> in `s`. You may return the answer in **any order**.
 
 **Example:**
 
