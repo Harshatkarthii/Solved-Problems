@@ -119,7 +119,7 @@ class Solution {
 
 **Problem Statment**
 
-Given two strings `s` and `p`, return an array of all the start indices of `p's` [anagram](# "An anagram is a word or phrase formed by rearranging the letters of another, such as 'listen' and 'silent'.")
+Given two strings `s` and `p`, return an array of all the start indices of `p's` [Anagram](# "An anagram is a word or phrase formed by rearranging the letters of different word of phrase, using all the original letters exactly once.")
  in `s`. You may return the answer in **any order**.
 
 **Example:**
