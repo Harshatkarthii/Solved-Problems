@@ -391,6 +391,55 @@ class Solution {
     }
 }
 ```
+
+## 1004 - Max Consecutive One III
+
+**Problem Statement**
+
+Given a binary array `nums` and an integer `k`, return the maximum number of consecutive `1's` in the array if you can flip at most `k` `0's`.
+
+**Example:**
+
+```text
+Example 1:
+
+Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
+Output: 6
+Explanation: [1,1,1,0,0,1,1,1,1,1,1]
+Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+
+Example 2:
+
+Input: nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], k = 3
+Output: 10
+Explanation: [0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1]
+Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
+
+```
+
+**Code:**
+
+```text
+class Solution {
+    public int longestOnes(int[] nums, int k) {
+        int left = 0 , maxl = 0 , zerocount = 0;
+        for(int right = 0;right<nums.length;right++){
+            if(nums[right]==0){
+                zerocount++;
+            }
+            while(zerocount>k){
+                if(nums[left]==0){
+                    zerocount--;
+                }
+                left++;
+            }
+            maxl = Math.max(maxl,right-left+1);
+        }
+        return maxl;
+    }
+}
+```
+
 ## 1493 - Logest SubArray of 1'S After Deleting One Element
 
 **Problem Statement**
