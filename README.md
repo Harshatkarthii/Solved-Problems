@@ -59,6 +59,7 @@ class Solution {
     }
 }
 ```
+---
 
 ## 88 - Merge Sorted Array
 
@@ -119,6 +120,7 @@ class Solution {
     }
 }
 ```
+---
 ## 239 - Sliding Window Maximum
 
 **Problem Statement**
@@ -180,7 +182,7 @@ class Solution {
 }
 
 ```
-
+---
 ## 424 - Longest Repeating Character Replacement
 
 **Problem Statment**
@@ -234,7 +236,7 @@ class Solution {
     }
 }
 ```
-
+---
 
 ## 438 -  Find All Anagrams in a String
 
@@ -281,7 +283,7 @@ class Solution {
     }
 }
 ```
-
+---
 
 ## 611 - Valid Triangle Number
 
@@ -330,7 +332,7 @@ class Solution {
     }
 }
 ```
-
+---
 
 ## 812 - Largest Triangle Area
 
@@ -379,7 +381,7 @@ class Solution {
 
 ```
 
-
+---
 
 ## 904 - Fruit into Baskets
 
@@ -451,7 +453,7 @@ class Solution {
     }
 }
 ```
-
+---
 ## 1004 - Max Consecutive One III
 
 **Problem Statement**
@@ -499,7 +501,7 @@ class Solution {
     }
 }
 ```
-
+---
 ## 1423 - Maximum Points You Can Obtain from Cards
 
 **Problem Statement**
@@ -554,7 +556,7 @@ class Solution {
     }
 }
 ```
- 
+---
 
 ## 1493 - Logest SubArray of 1'S After Deleting One Element
 
