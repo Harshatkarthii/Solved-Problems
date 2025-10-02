@@ -2,6 +2,69 @@
 
 ## LeetCode Problem 
 
+## 32 - Longest Window Parentheses
+
+**Problem Statement**
+
+Given a string containing just the characters `'('` and `')'`, return the length of the longest valid (well-formed) [parentheses](# "A Substring is a contigious non-empty Sequence of characters within a string." ) .
+
+**Example:**
+
+```text
+Example 1:
+
+Input: s = "(()"
+Output: 2
+Explanation: The longest valid parentheses substring is "()".
+
+Example 2:
+
+Input: s = ")()())"
+Output: 4
+Explanation: The longest valid parentheses substring is "()()".
+
+Example 3:
+
+Input: s = ""
+Output: 0
+
+```
+
+**Code**
+
+```text
+import java.util.LinkedList;
+public class Solution {
+    public int longestValidParentheses(String s) {
+        if (s == null || s.length() < 2){
+            return 0;
+        }
+        LinkedList<Integer> st = new LinkedList<>();
+        st.add(-1);
+        int result = 0;
+        for(int i=0;i<s.length();i++){
+            char c = s.charAt(i);
+            if(c=='('){
+                st.add(i);
+            }
+            else{
+                st.removeLast();
+                if(st.isEmpty()){
+                    st.add(i);
+                }
+                else{
+                    result = Math.max(result , i-st.getLast());
+                }
+            }            
+        }
+        return result;
+    }
+}
+
+```
+
+---
+
 ## 76 - Minimum Window Substring
 
 **Problem Statement:**
