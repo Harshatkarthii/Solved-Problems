@@ -6,7 +6,7 @@
 
 **Problem Statement**
 
-Given a string containing just the characters `'('` and `')'`, return the length of the longest valid (well-formed) [parentheses](# "A Substring is a contigious non-empty Sequence of characters within a string." ) .
+Given a string containing just the characters `'('` and `')'`, return the length of the longest valid (well-formed) parenthese [Substring](# "A Substring is a contigious non-empty Sequence of characters within a string." ) .
 
 **Example:**
 
