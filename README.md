@@ -256,7 +256,6 @@ Given an `m x n` integer matrix `heightMap` representing the height of each unit
 
 ```text
 Example 1:
-![Logo](.//logo.png)
 
 Input: heightMap = [[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]
 Output: 4
