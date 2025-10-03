@@ -317,6 +317,7 @@ class Solution {
     }
 }
 ```
+---
 ## 424 - Longest Repeating Character Replacement
 
 **Problem Statment**
