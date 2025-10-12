@@ -65,6 +65,12 @@ public class Solution {
 
 ---
 
+## 42 - Trapping Rain Water
+
+**Problem Statement**
+
+Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
+
 ## 76 - Minimum Window Substring
 
 **Problem Statement:**
